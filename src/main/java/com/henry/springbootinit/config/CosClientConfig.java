@@ -21,22 +21,22 @@ public class CosClientConfig {
     /**
      * SecretId
      */
-    private String SecretId = "AKID1sY0C9qJ1VjjU0HK9j49z70d1A5nGUUI";
+    private String SecretId = "";
 
     /**
      * secretKey
      */
-    private String secretKey = "iBgwxiFhBZpshIfnhOrRzSoEqOrOqlvD";
+    private String secretKey = "";
 
     /**
      * 区域
      */
-    private String region = "ap-nanjing";
+    private String region = "";
 
     /**
      * 桶名
      */
-    private String bucket = "aixtest-1324598044";
+    private String bucket = "";
 
     @Bean
     public COSClient cosClient() {
