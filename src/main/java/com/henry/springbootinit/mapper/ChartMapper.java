@@ -7,7 +7,6 @@ import com.henry.springbootinit.model.entity.Chart;
 * @author monee
 * @description 针对表【chart(图表信息表)】的数据库操作Mapper
 * @createDate 2024-08-28 20:43:26
-* @Entity generator.domain.Chart
 */
 public interface ChartMapper extends BaseMapper<Chart> {
 

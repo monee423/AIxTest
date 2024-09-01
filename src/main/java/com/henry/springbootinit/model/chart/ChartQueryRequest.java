@@ -12,6 +12,9 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 @Data
 public class ChartQueryRequest extends PageRequest implements Serializable {
+    // 图表名称
+    private String chartName;
+
     // 图表id
     private Long id;
 

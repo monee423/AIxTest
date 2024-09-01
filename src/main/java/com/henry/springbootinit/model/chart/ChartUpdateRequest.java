@@ -13,8 +13,11 @@ public class ChartUpdateRequest implements Serializable {
     // 图表id
     private Long id;
 
-    // 分析目标
+    // 分析数据
     private String goal;
+
+    // 图表名称
+    private String chartName;
 
     // 图表数据
     private String chartData;

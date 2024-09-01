@@ -16,7 +16,6 @@ import org.springframework.web.context.request.ServletRequestAttributes;
 /**
  * 请求响应日志 AOP
  *
-
  **/
 @Aspect
 @Component
@@ -48,7 +47,7 @@ public class LogInterceptor {
         // 输出响应日志
         stopWatch.stop();
         long totalTimeMillis = stopWatch.getTotalTimeMillis();
-        log.info("request end, id: {}, cost: {}ms", requestId, totalTimeMillis);
+//        log.info("request end, id: {}, cost: {}ms", requestId, totalTimeMillis);
         return result;
     }
 }
